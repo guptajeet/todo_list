@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}ToDo List{% endblock %}
+
+{% block content %}
+<div class="task-list">
+    {% for task in tasks %}
+    <div class="task {% if task.is_completed %}completed{% endif %}">
+        <h2>{{ task.title }}</h2>
+        <p>{{ task.description }}</p>
+        <p>Due Date: {{ task.due_date }}</p>
+        <div class="actions">
+            <a href="{{ url_for('main.edit_task', task_id=task.id) }}">Edit</a>
+            <a href="{{ url_for('main.delete_task', task_id=task.id) }}">Delete</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+
