@@ -17,7 +17,7 @@ Welcome to the ToDo List application! This project is a simple web app built usi
 
 Here’s a breakdown of the project structure to help you understand where everything is:
 
-```bash
+
 todo_list/
 │
 ├── app/
@@ -42,7 +42,7 @@ todo_list/
 ├── config.py
 ├── requirements.txt
 └── run.py
-```
+
 
 ### Explanation of Each Component
 
