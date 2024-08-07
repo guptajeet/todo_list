@@ -175,7 +175,4 @@ migrations/
 *.swp
 ```
 
-This `.gitignore` file will exclude virtual environment directories, bytecode files, database files, IDE configurations, system files, environment variables, migration files, and other unnecessary files from being tracked in your Git repository.
-
-Feel free to modify the `README.md` and `.gitignore` files as needed for your specific project. Let me know if there's anything else you'd like to add!
 
